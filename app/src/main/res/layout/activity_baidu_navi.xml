@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.wxs.fastmail.activity.BaiduNaviActivity">
+
+    <com.baidu.mapapi.map.MapView
+        android:id="@+id/mapview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </com.baidu.mapapi.map.MapView>
+
+    <com.lsjwzh.widget.materialloadingprogressbar.CircleProgressBar
+        android:id="@+id/progressbar"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        app:mlpb_progress_color="@color/colorPrimary"
+        app:mlpb_progress_stoke_width="3dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        />
+</RelativeLayout>

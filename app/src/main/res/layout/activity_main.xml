@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/main_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/white"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@color/tabbar"
+        android:orientation="horizontal"
+        >
+        <LinearLayout
+            android:id="@+id/main_main"
+            style="@style/SelectableItemBackgroundBorderless"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/main_img1"
+                android:layout_width="@dimen/tabbar_btn_size"
+                android:layout_height="@dimen/tabbar_btn_size"
+                android:background="@drawable/table_home_click"
+                android:clickable="false" />
+            <TextView
+                android:id="@+id/main_tv1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:clickable="false"
+                android:text="订单"
+                android:textColor="@color/text1"
+                android:textSize="@dimen/tabbar_text_size" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/main_message"
+            style="@style/SelectableItemBackgroundBorderless"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/main_img3"
+                android:layout_width="@dimen/tabbar_btn_size"
+                android:layout_height="@dimen/tabbar_btn_size"
+                android:background="@drawable/table_message_unclick"
+                android:clickable="false" />
+
+            <TextView
+                android:id="@+id/main_tv3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:clickable="false"
+                android:text="消息"
+                android:textColor="@color/text1"
+                android:textSize="@dimen/tabbar_text_size" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/main_find"
+            style="@style/SelectableItemBackgroundBorderless"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+            <ImageButton
+                android:id="@+id/main_img2"
+                android:layout_width="@dimen/tabbar_btn_size"
+                android:layout_height="@dimen/tabbar_btn_size"
+                android:background="@drawable/table_community_unclick"
+                android:clickable="false" />
+
+            <TextView
+                android:id="@+id/main_tv2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:clickable="false"
+                android:text="发现"
+                android:textColor="@color/text1"
+                android:textSize="@dimen/tabbar_text_size" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/main_me"
+            style="@style/SelectableItemBackgroundBorderless"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:gravity="center"
+            android:orientation="vertical">
+            <ImageButton
+                android:id="@+id/main_img4"
+                android:layout_width="@dimen/tabbar_btn_size"
+                android:layout_height="@dimen/tabbar_btn_size"
+                android:background="@drawable/table_person_unclick"
+                android:clickable="false" />
+
+            <TextView
+                android:id="@+id/main_tv4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:clickable="false"
+                android:text="个人"
+                android:textColor="@color/text1"
+                android:textSize="@dimen/tabbar_text_size" />
+        </LinearLayout>
+    </LinearLayout>
+    <include layout="@layout/decoration_horizontal" />
+
+</LinearLayout>

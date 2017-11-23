@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/bg_gray1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:background="@drawable/send_background4"
+            android:orientation="vertical"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp">
+
+            <LinearLayout
+                android:id="@+id/send_baidumap"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="100dp"
+                android:orientation="horizontal"
+                android:paddingBottom="20dp"
+                android:paddingTop="30dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="60dp"
+                    android:text="附近有"
+                    android:textSize="15sp"
+                    android:textColor="@color/white"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:text="4"
+                    android:textColor="@color/white"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="15dp"
+                    android:text="位自由快递人正在待命"
+                    android:textSize="15sp"
+                    android:textColor="@color/white"
+                    />
+
+                <ImageView
+                    android:layout_width="15dp"
+                    android:layout_height="20dp"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/mail_marker"
+                    android:paddingLeft="20dp"
+                    android:paddingTop="20dp" />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/mail_editText"
+                    android:layout_width="310dp"
+                    android:layout_height="45dp"
+                    android:background="@drawable/edit_text_style"
+                    android:gravity="top|center_horizontal"
+                    android:hint="输入您想要的商品"
+                    android:paddingTop="14dp"
+                    android:textSize="15sp"
+                    android:windowSoftInputMode="adjustPan|stateHidden" />
+
+                <ImageView
+                    android:id="@+id/send_voice"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/mail_sendvoice" />
+
+                <Button
+                    android:id="@+id/mail_oder"
+                    android:layout_width="60dp"
+                    android:layout_height="35dp"
+                    android:layout_marginLeft="235dp"
+                    android:layout_marginTop="5.5dp"
+                    android:background="@drawable/btn_text_style"
+                    android:clickable="true"
+                    android:text="下单"
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="7dp"
+            android:paddingTop="10dp"
+            android:background="@color/white"
+            >
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:gravity="center"
+                android:orientation="vertical">
+                <ImageView
+                    android:id="@+id/send_dec"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:background="@drawable/mail_bussinessdec"
+                    android:clickable="true" />
+                <TextView
+                    style="@style/SmallTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:clickable="true"
+                    android:text="美食"
+                    android:textColor="@color/text1"
+                    android:textSize="13sp"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:gravity="center"
+                android:orientation="vertical">
+                <ImageView
+                    android:id="@+id/send_eat"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:background="@drawable/mail_bussinesseat"
+                    android:clickable="true" />
+                <TextView
+                    style="@style/SmallTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:clickable="true"
+                    android:text="快餐小吃"
+                    android:textColor="@color/text1"
+                    android:textSize="13sp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:gravity="center"
+                android:orientation="vertical">
+                <ImageView
+                    android:id="@+id/send_market"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:background="@drawable/mail_supermarket"
+                    android:clickable="true" />
+                <TextView
+                    style="@style/SmallTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:clickable="true"
+                    android:text="超市生鲜"
+                    android:textSize="13sp"
+                    android:textColor="@color/text1" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:gravity="center"
+                android:orientation="vertical">
+                <ImageView
+                    android:id="@+id/send_flower"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:background="@drawable/mail_businessflower"
+                    android:clickable="true" />
+                <TextView
+                    style="@style/SmallTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:clickable="true"
+                    android:text="鲜花"
+                    android:textSize="13sp"
+                    android:textColor="@color/text1" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:gravity="center"
+                android:orientation="vertical">
+                <ImageView
+                    android:id="@+id/send_drink"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:background="@drawable/mail_businessdrink"
+                    android:clickable="true"
+                    />
+                <TextView
+                    style="@style/SmallTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:clickable="true"
+                    android:text="甜点饮品"
+                    android:textSize="13sp"
+                    android:textColor="@color/text1" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
+            android:layout_marginTop="1dp"
+            android:background="@color/white"
+            android:layout_gravity="center_horizontal"
+            >
+            <TextView
+                android:layout_marginLeft="110dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="── 活动专区 ──"
+                android:textSize="18sp"
+                android:textColor="@color/text1"
+                />
+            <ImageView
+                android:id="@+id/mail_ad"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:background="@drawable/mail_businessact2"
+                />
+            <ImageView
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:background="@drawable/mail_business_act1"
+                />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

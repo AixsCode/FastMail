@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="8dp"
+    android:background="@color/white"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="15dp"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:background="@color/white"
+        >
+     <ImageView
+         android:layout_width="45dp"
+         android:layout_height="45dp"
+         android:background="@drawable/mail_buy_person1"
+         />
+   <LinearLayout
+       android:layout_marginLeft="20dp"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical"
+       >
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="思想聚焦"
+           android:textColor="@color/black"
+           android:textSize="17dp"
+           />
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="8-22  19:07"
+           android:layout_marginTop="10dp"
+           android:textSize="13sp"
+           android:textColor="@color/text1"
+           />
+   </LinearLayout>
+  </LinearLayout>
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical"
+       android:background="@color/white"
+       >
+       <TextView
+           android:layout_marginLeft="50dp"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="尚未配妥剑,转眼便江湖。愿经历千帆，归来仍是"
+           android:textColor="@color/text1"
+           android:textSize="14sp"
+           />
+           <TextView
+           android:layout_marginTop="10dp"
+           android:layout_marginLeft="30dp"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="少年 那些为理想而拼搏的人才是最美的风景/"
+           android:textColor="@color/text1"
+           android:textSize="14sp"
+           />
+   </LinearLayout>
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+       android:paddingTop="15dp"
+       android:paddingLeft="10dp"
+       android:background="@color/white"
+       >
+       <ImageView
+           android:id="@+id/imageView2"
+           android:layout_width="170dp"
+           android:layout_height="130dp"
+           android:background="@drawable/community_trend1"
+           />
+       <ImageView
+           android:layout_marginLeft="10dp"
+           android:layout_width="150dp"
+           android:layout_height="130dp"
+           android:background="@drawable/community_trend2"
+           />
+   </LinearLayout>
+   <include  layout="@layout/community_trend_bottombar"/>
+
+</LinearLayout>

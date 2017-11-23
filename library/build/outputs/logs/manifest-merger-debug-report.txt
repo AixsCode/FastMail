@@ -1,0 +1,23 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\AndroidStudio\Android-studio_Workspaces\FastMail\library\src\main\AndroidManifest.xml:1:1-50
+INJECTED from D:\AndroidStudio\Android-studio_Workspaces\FastMail\library\src\main\AndroidManifest.xml:1:1-50
+INJECTED from D:\AndroidStudio\Android-studio_Workspaces\FastMail\library\src\main\AndroidManifest.xml:1:1-50
+	package
+		ADDED from D:\AndroidStudio\Android-studio_Workspaces\FastMail\library\src\main\AndroidManifest.xml:1:11-48
+		INJECTED from D:\AndroidStudio\Android-studio_Workspaces\FastMail\library\src\main\AndroidManifest.xml
+		INJECTED from D:\AndroidStudio\Android-studio_Workspaces\FastMail\library\src\main\AndroidManifest.xml
+uses-sdk
+INJECTED from D:\AndroidStudio\Android-studio_Workspaces\FastMail\library\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\AndroidStudio\Android-studio_Workspaces\FastMail\library\src\main\AndroidManifest.xml
+INJECTED from D:\AndroidStudio\Android-studio_Workspaces\FastMail\library\src\main\AndroidManifest.xml
+INJECTED from D:\AndroidStudio\Android-studio_Workspaces\FastMail\library\src\main\AndroidManifest.xml
+INJECTED from D:\AndroidStudio\Android-studio_Workspaces\FastMail\library\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\AndroidStudio\Android-studio_Workspaces\FastMail\library\src\main\AndroidManifest.xml
+		ADDED from D:\AndroidStudio\Android-studio_Workspaces\FastMail\library\src\main\AndroidManifest.xml
+		INJECTED from D:\AndroidStudio\Android-studio_Workspaces\FastMail\library\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\AndroidStudio\Android-studio_Workspaces\FastMail\library\src\main\AndroidManifest.xml
+		ADDED from D:\AndroidStudio\Android-studio_Workspaces\FastMail\library\src\main\AndroidManifest.xml
+		INJECTED from D:\AndroidStudio\Android-studio_Workspaces\FastMail\library\src\main\AndroidManifest.xml

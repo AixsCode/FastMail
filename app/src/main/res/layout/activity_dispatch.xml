@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.wxs.fastmail.activity.DispatchActivity"
+    android:orientation="vertical"
+    >
+ <android.support.v7.widget.Toolbar
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:background="@color/white">
+     <ImageView
+         android:id="@+id/back"
+         android:layout_width="17dp"
+         android:layout_height="17dp"
+         android:background="@drawable/back"
+         android:clickable="true" />
+     <!--自定义控件-->
+     <TextView
+         android:layout_centerInParent="true"
+         android:layout_gravity="center"
+         android:textSize="19sp"
+         android:textColor="@color/black"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="快速配送" />
+   </android.support.v7.widget.Toolbar>
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appbarlayout"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        app:theme="@style/AppTheme.AppBarOverlay"
+        app:elevation="0dp">
+        <android.support.design.widget.TabLayout
+            android:id="@+id/tablayout"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            app:tabGravity="fill"
+            app:tabIndicatorColor="@color/colorAccent"
+            app:tabMode="fixed"
+            app:tabBackground="@color/white"
+            app:tabSelectedTextColor="@color/colorAccent"
+            app:tabTextAppearance="@style/MyTabLayoutTextAppearance"
+            app:tabTextColor="@color/text1" />
+    </android.support.design.widget.AppBarLayout>
+     <android.support.v4.view.ViewPager
+         android:id="@+id/viewpager"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         app:layout_behavior="@string/appbar_scrolling_view_behavior"
+         />
+
+</LinearLayout>

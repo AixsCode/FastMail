@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "D:\\AndroidStudio\\Android-studio_Workspaces\\FastMail\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\bga_banner_point_enabled.png",
+        "source": "D:\\AndroidStudio\\Android-studio_Workspaces\\FastMail\\library\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\bga_banner_point_enabled.png"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Android-studio_Workspaces\\FastMail\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\bga_banner_point_disabled.png",
+        "source": "D:\\AndroidStudio\\Android-studio_Workspaces\\FastMail\\library\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\bga_banner_point_disabled.png"
+    }
+]

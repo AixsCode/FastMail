@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/FastMail.iml" filepath="$PROJECT_DIR$/FastMail.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IMKit/IMKit.iml" filepath="$PROJECT_DIR$/IMKit/IMKit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IMLib/IMLib.iml" filepath="$PROJECT_DIR$/IMLib/IMLib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OkhttpUtils/OkhttpUtils.iml" filepath="$PROJECT_DIR$/OkhttpUtils/OkhttpUtils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/addpopmenu/addpopmenu.iml" filepath="$PROJECT_DIR$/addpopmenu/addpopmenu.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/library/library.iml" filepath="$PROJECT_DIR$/library/library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pickerview/pickerview.iml" filepath="$PROJECT_DIR$/pickerview/pickerview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pictureselector/pictureselector.iml" filepath="$PROJECT_DIR$/pictureselector/pictureselector.iml" />
+      <module fileurl="file://$PROJECT_DIR$/stepview/stepview.iml" filepath="$PROJECT_DIR$/stepview/stepview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/toasty/toasty.iml" filepath="$PROJECT_DIR$/toasty/toasty.iml" />
+    </modules>
+  </component>
+</project>

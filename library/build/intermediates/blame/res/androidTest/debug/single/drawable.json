@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "D:\\AndroidStudio\\Android-studio_Workspaces\\FastMail\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\bga_banner_selector_point_solid.xml",
+        "source": "D:\\AndroidStudio\\Android-studio_Workspaces\\FastMail\\library\\build\\intermediates\\bundles\\debug\\res\\drawable\\bga_banner_selector_point_solid.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Android-studio_Workspaces\\FastMail\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\bga_banner_selector_point_hollow.xml",
+        "source": "D:\\AndroidStudio\\Android-studio_Workspaces\\FastMail\\library\\build\\intermediates\\bundles\\debug\\res\\drawable\\bga_banner_selector_point_hollow.xml"
+    }
+]
